@@ -1,0 +1,163 @@
+/* Borító */
+.cover {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+.cover h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cover button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #0288d1; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('kep1.jpg'); /* Cseréld ki a fájlnevet! */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* A diák stílusa */
+.slide {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+}
+
+/* Képek stílusa*/
+.illustration {
+    width: 40%; 
+    height: auto; 
+    margin: 20px auto 0; 
+    display: block;
+    border-radius: 8px; 
+}
+
+/* Címek stílusa */
+h1 {
+    color: #0277bd; 
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Szövegek stílusa */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Gombok stílusa */
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #0288d1; 
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0277bd; /
+}
+
+/* Táblázat stílus */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0288d1; 
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+    button {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+ul.source-list {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+/* Vonalak hozzáadása a listaelemek között */
+ul.source-list li {
+    text-align: left; 
+    font-size: 16px; 
+    margin-bottom: 10px; 
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px; 
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
